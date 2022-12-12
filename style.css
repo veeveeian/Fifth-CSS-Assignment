@@ -71,7 +71,7 @@ h4{
 }
 .box{
     width:30%;
-    transition: 1s;
+    transition: 1s ease-in-out;
     background-color: red;
 }
 .img111{
