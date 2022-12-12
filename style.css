@@ -1,3 +1,4 @@
+
 .parent{
     background-color: white;
 }
@@ -69,83 +70,47 @@ h4{
     margin-left:325px;
 }
 .box{
-    width:100px;
-    margin: 10px 10px;
+    width:30%;
     transition: 1s;
-    position: absolute;
-    display: inline-block;
-    display: flex;
-    border-radius: 2px;
-    align-items: center;
-    
+    background-color: red;
 }
 .img111{
     width: 100%;
-    height: 800px;
+    height: 350px;
     background-color: gray;
-    padding: 20px;
-    margin: 100px auto;
-    display:inline-block;
-    flex-direction: row;
-    justify-content: center;
-    position: relative;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;  
 }
-#i1{
-    margin-left: 120px;
-    display: flex;
-    width: 350px;
-    height: 50%;
-    border-radius: 2px;
-    align-items: center;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1)
+.box1{
+    background-image: url("images/1.jpg");
+    background-position: center;
+    background-size: cover;
 }
-#i2{
-    margin-left: 500px;
-    display: flex;
-    width: 350px;
-    height: 50%;
-    border-radius: 2px;
-    align-items: center;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5)
+.box2{
+    background-image: url("images/2.jpg");
+    background-position: center;
+    background-size: cover;
 }
-#i3{
-    margin-left: 870px;
-    display: flex;
-    width: 350px;
-    height: 50%;
-    border-radius: 2px;
-    align-items: center;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5)
+.box3{
+    background-image: url("images/3.jpg");
+    background-position: center;
+    background-size: cover;
 }
-#i4{
-    padding-top: 350px;
-   margin-left: 120px;
-   display: flex;
-   width: 350px;
-   height: 50%;
-   border-radius: 2px;
-   align-items: center;
-   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5)
+.box4{
+    background-image: url("images/4.jpg");
+    background-position: center;
+    background-size: cover;
 }
-#i5{
-    padding-top: 350px;
-    margin-left: 500px;
-    display: flex;
-    width: 350px;
-    height: 50%;
-    border-radius: 2px;
-    align-items: center;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5)
+.box5{
+    background-image: url("images/5.jpg");
+    background-position: center;
+    background-size: cover;
 }
-#i6{
-    padding-top: 350px;
-    margin-left: 870px;
-    display: flex;
-    width: 350px;
-    height: 50%;
-    border-radius: 2px;
-    align-items: center;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5)
+.box6{
+    background-image: url("images/6.jpg");
+    background-position: center;
+    background-size: cover;
 }
 .box:hover{
     transform: scale(1.1);
@@ -166,7 +131,7 @@ button{
     padding-bottom: 10px;
     border-radius: 5px;
     font-family: 'Rajdhani', sans-serif;
-    transition: 0.7s;
+    
 }
 .footer{
     background-color:rgb(116, 179, 235); 
@@ -176,5 +141,8 @@ li{
     display: inline;
     color: rgb(58, 89, 117);
     padding-left: 45px;
-    
+}
+button:hover{
+    background-color: green;
+    color: white;
 }
